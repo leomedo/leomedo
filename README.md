@@ -171,7 +171,7 @@ line of them.
 
 | | Role | Focus |
 |---|---|---|
-| **Dynamic** | Software Engineer — Backend / Python | Multi-tenant client portals, ETA &amp; ZATCA e-invoicing, ERPNext across Contracting · Delivery · HR · Finance, real-time Supervisor socket integration |
+| **Dynamic** | Software Engineer — Backend / Python | Main contributor to the company's multi-tenant SaaS platform and core ERPNext layer. Contract management, ETA &amp; ZATCA e-invoicing, a TypeScript desk theme, HR &amp; attendance, fleet · real-estate · delivery modules, payment and e-commerce integrations, real-time Supervisor socket integration |
 | **Uonyx** | Backend Engineer — SaaS Platform | SaaS Control Layer, Stripe lifecycle, entitlement enforcement, role-driven executive KPI dashboards |
 | **Loctech** | Full-Stack Developer — Freelance | React + Frappe charity platform, RTL UI, role-scoped REST APIs |
 | **Prosoft** | Software Engineer — Python / ERPNext | Module customisation, custom themes, workflow automation |
