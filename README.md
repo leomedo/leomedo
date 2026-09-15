@@ -35,6 +35,16 @@ BSc in Computers &amp; Artificial Intelligence, Helwan University. Arabic native
 
 <br>
 
+## The system I keep building
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/architecture-light.svg">
+  <img alt="Architecture: many tenants share one Frappe/ERPNext deployment; a SaaS control layer applies per-tenant entitlements and routes signed invoices to the Egyptian ETA and Saudi ZATCA portals" src="./assets/architecture-dark.svg" width="100%">
+</picture>
+
+<br>
+
 ## Featured work
 
 > Much of the work below ships inside client and employer repositories. Where the code is private,

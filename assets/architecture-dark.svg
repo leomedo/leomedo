@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 406" width="1200" height="406" role="img" aria-label="Architecture: tenants enter one Frappe/ERPNext deployment; a SaaS control layer applies entitlements and routes signed invoices to the Egyptian ETA and Saudi ZATCA portals">
+  <title>Multi-tenant SaaS and e-invoicing architecture</title>
+  <defs>
+    <linearGradient id="bgAdark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080C18"/><stop offset="60%" stop-color="#111A33"/><stop offset="100%" stop-color="#0A1024"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 z" fill="#35D6A4"/>
+    </marker>
+    <clipPath id="frdark"><rect width="1200" height="406" rx="18"/></clipPath>
+    <style>
+      .f { font-family:'Segoe UI', Inter, system-ui, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: ui-monospace,'Cascadia Code','SF Mono', Menlo, Consolas, monospace; }
+      .eyebrow { fill:#93A2C6; font-size:11px; font-weight:600; letter-spacing:2.6px; }
+      .ct { fill:#F2F6FF; font-size:14px; font-weight:600; text-anchor:middle; }
+      .cs { fill:#93A2C6; font-size:10.5px; text-anchor:middle; letter-spacing:.3px; }
+      .nt { fill:#F2F6FF; font-size:19px; font-weight:700; text-anchor:middle; }
+      .ns { fill:#93A2C6; font-size:11px; text-anchor:middle; letter-spacing:.6px; }
+      .bt { fill:#35D6A4; font-size:14.5px; font-weight:700; text-anchor:middle; }
+      .note { fill:#93A2C6; font-size:12.5px; }
+      .accent { fill:#35D6A4; font-size:12.5px; font-weight:600; }
+      .wire { fill:none; stroke:#35D6A4; stroke-width:1.7; stroke-opacity:.75;
+               stroke-dasharray:5 9; animation: flow 2.4s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset:-28; } }
+      @media (prefers-reduced-motion: reduce) { .wire { animation:none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frdark)">
+    <rect width="1200" height="406" fill="url(#bgAdark)"/>
+    <text class="m eyebrow" x="56" y="68">TENANTS</text><text class="m eyebrow" x="294" y="68">PLATFORM</text><text class="m eyebrow" x="614" y="68">CONTROL PLANE</text><text class="m eyebrow" x="910" y="68">EXTERNAL</text>
+    <path class="wire" d="M224,123 C259.0,123 259.0,163.0 294,163.0" style="animation-delay:0.00s" marker-end="url(#arrow)"/><path class="wire" d="M224,193 L294,193.0" style="animation-delay:0.35s" marker-end="url(#arrow)"/><path class="wire" d="M224,263 C259.0,263 259.0,223.0 294,223.0" style="animation-delay:0.70s" marker-end="url(#arrow)"/><path class="wire" d="M544,159.0 C579.0,159.0 579.0,140 614,140" style="animation-delay:0.20s" marker-end="url(#arrow)"/><path class="wire" d="M544,227.0 C579.0,227.0 579.0,245 614,245" style="animation-delay:0.55s" marker-end="url(#arrow)"/><path class="wire" d="M840,140 L910,140" style="animation-delay:0.40s" marker-end="url(#arrow)"/><path class="wire" d="M840,245 C875.0,245 875.0,220 910,220" style="animation-delay:0.75s" marker-end="url(#arrow)"/><path class="wire" d="M840,245 C875.0,245 875.0,271 910,271" style="animation-delay:0.95s" marker-end="url(#arrow)"/>
+    <rect x="56" y="96" width="168" height="54" rx="10" fill="#141D38" stroke="#2A3557" stroke-width="1.4"/><text class="m ct" x="140.0" y="128.0">Tenant A</text><rect x="56" y="166" width="168" height="54" rx="10" fill="#141D38" stroke="#2A3557" stroke-width="1.4"/><text class="m ct" x="140.0" y="198.0">Tenant B</text><rect x="56" y="236" width="168" height="54" rx="10" fill="#141D38" stroke="#2A3557" stroke-width="1.4"/><text class="m ct" x="140.0" y="268.0">Tenant C</text><rect x="294" y="96" width="250" height="194" rx="10" fill="#141D38" stroke="#35D6A4" stroke-width="1.4"/><text class="f ct" x="419.0" y="198.0"></text><text class="f nt" x="419.0" y="152">Frappe / ERPNext</text><text class="m ns" x="419.0" y="174">one deployment</text><rect x="318" y="204" width="202" height="46" rx="8" fill="#11301F" stroke="#35D6A4" stroke-width="1.2"/><text class="f bt" x="419.0" y="232">SaaS Control Layer</text><rect x="614" y="96" width="226" height="89" rx="10" fill="#141D38" stroke="#6C8CFF" stroke-width="1.4"/><text class="f ct" x="727.0" y="136.5">Entitlement Engine</text><text class="m cs" x="727.0" y="154.5">plans - modules - features</text><rect x="614" y="201" width="226" height="89" rx="10" fill="#141D38" stroke="#FFB86B" stroke-width="1.4"/><text class="f ct" x="727.0" y="241.5">E-Invoicing Gateway</text><text class="m cs" x="727.0" y="259.5">serialise - sign - reconcile</text><rect x="910" y="96" width="234" height="89" rx="10" fill="#141D38" stroke="#6C8CFF" stroke-width="1.4"/><text class="f ct" x="1027.0" y="136.5">Stripe</text><text class="m cs" x="1027.0" y="154.5">subscriptions - webhooks</text><rect x="910" y="201" width="234" height="38" rx="10" fill="#141D38" stroke="#FFB86B" stroke-width="1.4"/><text class="m ct" x="1027.0" y="225.0">ETA - Egypt</text><rect x="910" y="252" width="234" height="38" rx="10" fill="#141D38" stroke="#FFB86B" stroke-width="1.4"/><text class="m ct" x="1027.0" y="276.0">ZATCA - Saudi Arabia</text>
+    <text class="f note" x="56" y="352">Every gate above is enforced <tspan class="accent">server-side</tspan>. Hiding a button in the UI is not access control.</text>
+    <text class="m note" x="56" y="380" font-size="11.5">one deployment &#183; N tenants &#183; per-tenant entitlements &#183; two tax authorities &#183; zero trust in the browser</text>
+    <rect width="1200" height="406" rx="18" fill="none" stroke="#2A3557" stroke-width="1.5"/>
+  </g>
+</svg>
