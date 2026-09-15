@@ -190,6 +190,18 @@ line of them.
 
 <br>
 
+## A year of commits
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leomedo/leomedo/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leomedo/leomedo/output/snake-light.svg">
+  <img alt="A year of contributions, drawn as a snake eating the contribution grid" src="https://raw.githubusercontent.com/leomedo/leomedo/output/snake-dark.svg" width="100%">
+</picture>
+
+<sub>Redrawn daily by <a href="./.github/workflows/snake.yml">a GitHub Action</a>, in the same palette as the banner above. Most of those commits land in private client repositories — the shape is public, the code isn't.</sub>
+
+<br>
+
 ---
 
 <h3 align="center">Looking for someone to own your backend?</h3>
