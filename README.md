@@ -8,7 +8,6 @@
   <a href="https://linkedin.com/in/leomedo"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-3355E8?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:1leomedo1@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Say_hello-0E9E72?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <img alt="Location" src="https://img.shields.io/badge/Giza-Egypt-C2701A?style=for-the-badge&logo=googlemaps&logoColor=white">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=leomedo&style=for-the-badge&color=6C8CFF&label=VISITORS">
 </p>
 
 <p align="center">
