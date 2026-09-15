@@ -5,6 +5,7 @@
 </picture>
 
 <p align="center">
+  <a href="https://leomedo.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-leomedo.github.io-14181B?style=for-the-badge&logo=githubpages&logoColor=white"></a>
   <a href="https://linkedin.com/in/leomedo"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-3355E8?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:1leomedo1@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Say_hello-0E9E72?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <img alt="Location" src="https://img.shields.io/badge/Giza-Egypt-C2701A?style=for-the-badge&logo=googlemaps&logoColor=white">
@@ -212,6 +213,7 @@ line of them.
 </p>
 
 <p align="center">
+  <a href="https://leomedo.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Read_the_full_story-leomedo.github.io-0B7A75?style=for-the-badge&logo=githubpages&logoColor=white"></a>
   <a href="https://linkedin.com/in/leomedo"><img alt="LinkedIn" src="https://img.shields.io/badge/Let's_talk_on_LinkedIn-3355E8?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 
