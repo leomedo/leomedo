@@ -1,0 +1,9 @@
+# local preview / audit tooling, not part of the profile
+preview*.html
+render_preview.py
+audit_*.py
+audit_*.ps1
+inspect_candidates.py
+check_contributions.py
+.claude/
+__pycache__/
